@@ -1,0 +1,437 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mequen</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+
+</head>
+<body>
+
+
+
+<!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <img src="Logo.png" alt="Mequen Logo" />
+    </div>
+    <nav class="nav-links">
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#products">Products</a>
+      <a href="#whyus">Why Us</a>
+      <a href="#work">Our Work</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+
+
+
+<!-- Introductory Section -->
+<section class="intro-section" id="brochure">
+  <div class="intro-text-container">
+    <h1 class="intro-title">Unboxing Unlimited Opportunities….</h1>
+  </div>
+  <a href="Brochure.pdf" class="brochure-btn">Get Brochure</a>
+</section>
+
+
+
+
+
+<!-- About Us Section -->
+<section id="about" class="about-section">
+  <div class="transparent-container scroll-reveal">
+    <h1 style="font-size: 40px; margin-bottom: 20px; color:#db2b1c;"><b>About Us</b></h1>
+    <p style="color:black; font-size:20px;">Mequen is a proudly Indian company dedicated to creating smart, reliable solutions for the healthcare industry. With over 18 years of experience, we design and manufacture products that support doctors, nurses, and hospital staff in delivering better care.</p> 
+    <p style="color:black; font-size:20px;">Our product range includes pendants, bed head panels, trolleys, wall guards, air handling units, UVC disinfection systems, and more. All built with a focus on safety, functionality, and comfort. These solutions are widely used in operation theatres, ICUs, recovery rooms, and emergency areas across India.</p>
+    <p style="color:black; font-size:20px;">At Mequen, we believe in working closely with our clients to understand their needs and deliver customized, efficient, and high-quality results. Our team listens, learns, and adapts making each product more effective and user friendly.</p>
+    <p style="color:black; font-size:20px;">Driven by innovation and backed by trust, Mequen continues to set new standards in healthcare infrastructure helping hospitals create better environments for both patients and professionals.</p>
+  </div>
+</section>
+
+<!-- About Us CSS -->
+<style>
+  .about-section {
+    background-color: #db2b1c; /* 🔴 Red background */
+    padding: 80px 20px;
+  }
+
+  .transparent-container {
+    background-color: white; /* ⚪ White background */
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin: auto;
+    border: 2px solid black; /* 🖤 Black border */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Scroll reveal animation */
+  .scroll-reveal {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    visibility: hidden;
+  }
+
+  .scroll-reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+</style>
+
+
+
+
+
+
+  <!-- Services Section -->
+<section id="services" class="services-section"  padding: 80px 20px;">
+
+  <h1 style="font-size: 45px; margin-bottom: 20px; color:#db2b1c; text-align: center;"><b>Our Services</b></h1>
+  <p style="color: white; font-size: 20px; max-width: 800px; margin: 0 auto 40px auto; text-align: center;">
+    At Mequen, we offer a wide range of innovative and reliable solutions designed to meet the specific needs of modern healthcare environments. Our services are built around quality, safety, and user comfort, helping hospitals create efficient, functional, and hygienic spaces.
+  </p>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <h3 style="text-align:center";>🔧 Custom Design & Manufacturing</h3>
+      <p>We design and manufacture medical infrastructure products such as pendants, panels, and accessories tailored to hospital standards.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>🏥 Healthcare Space Planning</h3>
+      <p>Our team collaborates with hospitals to plan efficient layouts for ICUs, OTs, and recovery spaces ensuring safety and flow.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>🛠️ Installation & Integration</h3>
+      <p>We handle complete system installations, including electrical and gas outlet setups, with precision and reliability.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>🔄 Product Customization</h3>
+      <p>Every hospital is unique. We offer size, color, and fitting customizations to match your exact needs.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>🧼 Sterilization & Disinfection</h3>
+      <p>Our UVC towers and air systems provide contactless, efficient disinfection for infection free environments.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>🧑‍🔧 Maintenance & Support</h3>
+      <p>We provide technical support, training, and regular maintenance to keep your systems running flawlessly.</p>
+    </div>
+  </div>
+<br>
+<br>
+</section>
+
+
+
+
+
+
+
+<!-- Products Section -->
+<section id="products" class="products-section">
+  <h1 style="font-size: 40px; margin-bottom: 20px; color:#db2b1c; text-align:center";><b>Our Products</b></h1><br>
+  <div class="product-grid">
+
+    <!-- Example Product Cards -->
+    <div class="product-card">
+      <img src="Surgeon’s Pendant with Control Panel.png" alt="Product Image" />
+      <h3>Surgeon’s Pendant with Control Panel</h3>
+      <p>High performance ceiling pendant with integrated controls.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="Surgeon’s O.T. Pendant with Extended LCD Arm.png" alt="Product Image" />
+      <h3>Surgeon’s O.T. Pendant with Extended LCD Arm</h3>
+      <p>Enhanced flexibility for O.T. displays and devices.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="Compact and durable ICU pendant system..png" alt="Product Image" />
+      <h3>I.C.U. Pendant</h3>
+      <p>Compact and durable ICU pendant system.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="Anaesthesia Pendant.png" alt="Product Image" />
+      <h3>Anaesthesia Pendant</h3>
+      <p>Specifically designed for anesthesia equipment management.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="Bed Head Panels.png" alt="Product Image" />
+      <h3>Bed Head Panels</h3>
+      <p>Clean and organized wall mounted utility panels.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="Aluminium Curtain Track with Cloth.png" alt="Product Image" />
+      <h3>Aluminium Curtain Track with Cloth</h3>
+      <p>Heavy duty aluminum track system with durable curtain.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="Wall Guards.png" alt="Product Image" />
+      <h3>Wall Guards</h3>
+      <p>Protective wall strips for hospital interiors.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="Rail Accessories.png" alt="Product Image" />
+      <h3>Rail Accessories</h3>
+      <p>Clamp based mounting accessories for equipment rails.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="Miniature Air Handling Unit.png" alt="Product Image" />
+      <h3>Miniature Air Handling Unit</h3>
+      <p>Compact, efficient air handling unit for OT/ICU spaces.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+       <!-- Brand Products -->
+    <div class="product-card">
+      <img src="YODDHA.png" alt="Product Image" />
+      <h3>YODDHA</h3>
+      <p>Robust mobile disinfection tower.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="YODDHA++.png" alt="Product Image" />
+      <h3>YODDHA++</h3>
+      <p>Advanced version with extended features.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="HYGEA.png" alt="Product Image" />
+      <h3>HYGEIA</h3>
+      <p>High efficiency, ceiling mounted disinfection system.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="HYGEIA LITE.png" alt="Product Image" />
+      <h3>HYGEIA LITE</h3>
+      <p>Lightweight, space saving UVC solution.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="ARTEMES.png" alt="Product Image" />
+      <h3>ARTEMES</h3>
+      <p>Versatile ceiling hung hybrid system.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="MINI YODDHA.png" alt="Product Image" />
+      <h3>MINI YODDHA</h3>
+      <p>Compact portable disinfection tower.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+
+    <div class="product-card">
+      <img src="MR - 2.png" alt="Product Image" />
+      <h3>MR - 2</h3>
+      <p>Advanced mobile unit with integrated functions.</p>
+      <a href="#contact" class="buy-btn">Contact to Buy</a>
+    </div>
+  </div>
+<br>
+<br>
+</section>
+
+
+
+
+
+
+
+<!-- Why Us Section -->
+<section id="whyus" class="whyus-section">
+  <div class="container">
+     
+     <h1 style="font-size: 40px; margin-bottom: 20px; color:#db2b1c; text-align:center";><b>Why Choose Mequen?</b></h1>
+    <p class="whyus-subtext" style="color:white; font-size:20px; text-align:center";>
+      Here’s what makes us the preferred partner for hospitals and healthcare spaces across India:
+    </p>
+
+    <div class="whyus-list">
+      <div class="whyus-item scroll-reveal">
+        <div class="whyus-icon">⭐</div>
+        <div class="whyus-text">
+          <h3>Proven Experience</h3>
+          <p>With over 18 years of trusted expertise, we deliver consistent quality and performance in critical care infrastructure.</p>
+        </div>
+      </div>
+
+      <div class="whyus-item scroll-reveal">
+        <div class="whyus-icon">🧩</div>
+        <div class="whyus-text">
+          <h3>Custom-Built Solutions</h3>
+          <p>Our modular products and tailored designs meet exact space and function requirements.</p>
+        </div>
+      </div>
+
+      <div class="whyus-item scroll-reveal">
+        <div class="whyus-icon">🔧</div>
+        <div class="whyus-text">
+          <h3>End to End Support</h3>
+          <p>We handle everything from design to installation and after sales service so you don’t have to.</p>
+        </div>
+      </div>
+
+      <div class="whyus-item scroll-reveal">
+        <div class="whyus-icon">🧼</div>
+        <div class="whyus-text">
+          <h3>Focus on Hygiene</h3>
+          <p>From UVC towers to sterile construction, we prioritize infection control in every solution.</p>
+        </div>
+      </div>
+
+      <div class="whyus-item scroll-reveal">
+        <div class="whyus-icon">🇮🇳</div>
+        <div class="whyus-text">
+          <h3>Made in India</h3>
+          <p>Engineered and manufactured in India, trusted by hospitals across the country.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
+<br>
+</section>
+
+
+
+
+
+
+<!-- Our Work Section -->
+<section id="work" class="ourwork-carousel-section">
+ <h1 style="font-size: 40px; margin-bottom: 20px; color:#db2b1c;"><b>Our Work</b></h1>
+  <p class="section-subtext" style="font-size:20px";><b>A glimpse of Mequen’s installations and infrastructure in hospitals.</b></p>
+
+  <div class="carousel">
+    <div class="carousel-track">
+      <!-- 7 unique images (repeat them once for seamless loop) -->
+      <img src="Image.1.jpg" alt="Work 1" />
+      <img src="Image.2.jpg" alt="Work 2" />
+      <img src="Image.3.jpg" alt="Work 3" />
+      <img src="Image.4.jpg" alt="Work 4" />
+      <img src="Image.5.jpg" alt="Work 5" />
+      <img src="Image.6.jpg" alt="Work 6" />
+      <img src="Image.7.jpg" alt="Work 7" />
+
+      <!-- Repeat for smooth infinite scroll -->
+      <img src="Image.1.jpg" alt="Work 1" />
+      <img src="Image.2.jpg" alt="Work 2" />
+      <img src="Image.3.jpg" alt="Work 3" />
+      <img src="Image.4.jpg" alt="Work 4" />
+      <img src="Image.5.jpg" alt="Work 5" />
+      <img src="Image.6.jpg" alt="Work 6" />
+      <img src="Image.7.jpg" alt="Work 7" />
+    </div>
+  </div>
+<br>
+<br>
+</section>
+
+
+
+
+<!-- Contact Us Section -->
+<section id="contact" class="contact-section">
+  <div class="contact-overlay">
+    <h1 style="font-size: 40px; margin-bottom: 20px; color:#db2b1c;"><b>Get In Touch</b></h1>
+    <p>We're here to help. Reach out to learn more about our solutions or to request a custom quote.</p><br>
+    <a href="contact.html" class="contact-btn">Contact Us</a>
+  </div>
+<br>
+<br>
+</section>
+
+
+
+<!-- Footer -->
+<footer class="site-footer" style="background-color:#db2b1c";>
+
+  <!-- Wrapper to shift only this part to right -->
+  <div class="footer-content-wrapper">
+    <div class="footer-container">
+
+      <!-- Column 1: Address -->
+      <div class="footer-col">
+        <h2>Address</h2>
+        <p>
+          <u  style="color:black";>Office:</u><br> 47-B, 301, Shivam Apartments, <br>Khare Town, Dharampeth,<br> Nagpur - 440010.
+        </p>
+      </div>
+
+      <!-- Column 2: Contact -->
+      <div class="footer-col">
+        <h2>Contact</h2>
+        <p><u  style="color:black";>Tel.:</u>+91-8329420819<br>
+               <p><u  style="color:black";>Email:</u><br> Mequenmedisystem@gmail.com <br>
+          medirail@gmail.com</p>
+      </div>
+
+      <!-- Column 3: Quick Links -->
+      <div class="footer-col">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#brochure">Brochure</a></li>
+        </ul>
+      </div>
+
+     <!-- Column 4: Logo and Image -->
+<div class="footer-col footer-logo-col">
+  <div class="footer-logo-wrapper">
+    <img src="C:\Users\HP\OneDrive\Desktop\INternship\just_logo.png" alt="Company Logo" class="footer-logo">
+    <img src="C:\Users\HP\OneDrive\Desktop\INternship\text.png" alt="Additional Image" class="footer-extra-img">
+    <p class="footer-tagline">Unboxing Unlimited Opportunities….</p>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 Mequen. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+
+
+</body>
+</html>
